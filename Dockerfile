@@ -1,3 +1,3 @@
 FROM ubuntu:14.04
 
-CMD ["cat"]
+CMD ["bash", "-c", "sleep 1 && cat"]
